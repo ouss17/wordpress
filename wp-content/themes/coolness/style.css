@@ -1,0 +1,20 @@
+/*
+Theme Name: coolness
+*/
+
+.screen-reader-text {
+    display: none;
+}
+
+.page-numbers {
+    font-size: 1.3rem;
+}
+
+.textwidget::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
